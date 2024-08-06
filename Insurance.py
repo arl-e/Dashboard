@@ -8,7 +8,7 @@ from datetime import datetime
 
 st.set_page_config(
     page_title="Eden Care Insurance Dashboard",
-    page_icon=Image.open("C:/Users/Student/Downloads/Documents/Eden Care/Health Insurance/EC_logo.png"),
+    page_icon=Image.open("./ECM_logo.png"),
     layout="wide",
     initial_sidebar_state="expanded")
 st.markdown(

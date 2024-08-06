@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 st.set_page_config(
     page_title="Eden Care Claims Dashboard",
-    page_icon=Image.open("../EC_logo.png"),
+    page_icon=Image.open("../ECM_logo.png"),
     layout="wide",
     initial_sidebar_state="expanded")
 teal_color = '#008040'  # Teal green color code
