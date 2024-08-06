@@ -68,7 +68,7 @@ color_palette = ['#1d340d', '#DEB887', '#FF4500', '#556B2F', '#32CD32', '#8B4513
 @st.cache_data
 def load_data():
     # Replace this with your actual data loading method
-    df = df= pd.read_excel('../Data/Claims_2023_2024.xlsx')
+    df = df= pd.read_excel('../Claims_2023_2024.xlsx')
     df['Date Of Diagnosis'] = pd.to_datetime(df['Date Of Diagnosis'])
     df['Claim Created Date'] = pd.to_datetime(df['Claim Created Date'])
     return df
